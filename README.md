@@ -101,6 +101,7 @@ after entering some commands into it we found out it is a Blind RCE vulnerabilit
 
 you can verify it yourselves by submitting this command
 
+# Privilege Escalation (A):
 ```bash
 sleep 5 
 ```
@@ -159,7 +160,7 @@ ssh -i my_key jake@<taget_ip>
 ```
 we have a shell as jake! lets keep enumerating further and find an attack vector which we can uset to escalate privileges
 
-# Privilege Escalation 
+# Privilege Escalation (B):
 
 ```bash
 sudo -l
