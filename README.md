@@ -2,7 +2,7 @@
 # Author: Atharva Bordavekar
 # Difficulty: Easy
 # Points: 60
-# Vulnerabilities:
+# Vulnerabilities: Blind RCE, Weak file permissions, Cron job abuse, PrivEsc via SUDO 
 
 # Reconnaisance:
 
