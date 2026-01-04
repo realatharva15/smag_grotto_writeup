@@ -134,8 +134,11 @@ this is the cronjob, we can clearly see that the public key in jake's directory 
 ls -la /opt/.backups
 ```
 total 12
+
 drwxr-xr-x 2 root root 4096 Jun  4  2020 .
+
 drwxr-xr-x 3 root root 4096 Jun  4  2020 ..
+
 -rw-rw-rw- 1 root root  563 Jun  5  2020 jake_id_rsa.pub.backup
 
 this is some good news, it means anyone can write this file. this is a huge vulnerability. now we simply create our own personal public and private key pair using sshkey-gen
